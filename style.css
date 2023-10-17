@@ -3,3 +3,17 @@ body * {
     font-family: sans-serif;
 }
 /* body * toate elementele din body */
+
+button, input{
+    display: block;
+    height: 2,5rem;
+    padding: 7px;
+    margin: 10px;
+    border: 1px solid grey;
+    border-radius: 7px;
+}
+
+button{
+    background-color: bisque;
+    font-weight: bold;
+}

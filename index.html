@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>To-Do App</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    
+
 </head>
+
 <body>
     <h1>ToDo App</h1>
-    <script src='main.js'></script>
+
+    <section id="login">
+        <h1>Login</h1>
+        <form>
+            <input type="email" id="loginEmail" placeholder="email">
+            <input type="password" id="loginPassword" , placeholder="password">
+            <button id="loginSubmit">Login</button>
+        </form>
+    </section>
+
+    <section id="register">
+        <h1>Register</h1>
+    </section>
+
+    <section id="user">
+        <h1>User info</h1>
+    </section>
+
+    <section id="toDos">
+        <h1>My To-Dos</h1>
+    </section>
+
+    <section id="form">
+        <h1>Add / Edit To-Do</h1>
+    </section>
+
+    <script type="module"  src='main.js'></script>
+    // TYPE = MODULE  ca sa se exporteze functiile dintr un js in altul 
 </body>
+
 </html>
